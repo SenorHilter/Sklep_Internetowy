@@ -66,6 +66,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 0,
             "ports": {
               "groups": {
                 "top": {
@@ -149,7 +150,6 @@
               ]
             },
             "id": "6ac287d9-8ca0-4829-b8d3-52e412d3ddbc",
-            "zIndex": 0,
             "data": {
               "type": "tm.Actor",
               "name": "Klient",
@@ -183,6 +183,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -266,7 +267,6 @@
               ]
             },
             "id": "527eb4fe-609f-44b1-86d6-7512ad6b744d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Server poczty email",
@@ -284,6 +284,366 @@
                 "button-remove"
               ],
               "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 160
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Przeglądarka"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "82e6cd12-6ddd-41db-95fd-93dfa11d70d4"
+                },
+                {
+                  "group": "right",
+                  "id": "4e7a0db5-a0f9-4673-80b7-4114ab23cbb7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a1521950-cbe5-465d-b344-db557116c3c0"
+                },
+                {
+                  "group": "left",
+                  "id": "9c308061-353e-4e2d-9927-9d24d7043acb"
+                }
+              ]
+            },
+            "id": "c78c7a14-97d2-4b83-a3b4-3e02217497a0",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Przeglądarka",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 640,
+              "y": 120
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Aplikacja Frontend "
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "82e6cd12-6ddd-41db-95fd-93dfa11d70d4"
+                },
+                {
+                  "group": "right",
+                  "id": "4e7a0db5-a0f9-4673-80b7-4114ab23cbb7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a1521950-cbe5-465d-b344-db557116c3c0"
+                },
+                {
+                  "group": "left",
+                  "id": "9c308061-353e-4e2d-9927-9d24d7043acb"
+                }
+              ]
+            },
+            "id": "a73cc10e-0dec-4709-88a2-788d617f0ccb",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Aplikacja Frontend ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 660,
+              "y": 260
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Aplikacja Backend"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "82e6cd12-6ddd-41db-95fd-93dfa11d70d4"
+                },
+                {
+                  "group": "right",
+                  "id": "4e7a0db5-a0f9-4673-80b7-4114ab23cbb7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a1521950-cbe5-465d-b344-db557116c3c0"
+                },
+                {
+                  "group": "left",
+                  "id": "9c308061-353e-4e2d-9927-9d24d7043acb"
+                }
+              ]
+            },
+            "id": "3575aa26-ff1b-4882-8d84-e995cdcc71d6",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "Aplikacja Backend",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
